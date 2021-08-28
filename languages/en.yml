@@ -2,6 +2,7 @@ home: "Home"
 archive: "Archives"
 category: "Category"
 tag: "Tag"
+rss: "RSS"
 search:
   main: "Search"
   placeholder: "Please enter a keyword..."

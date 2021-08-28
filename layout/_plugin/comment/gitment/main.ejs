@@ -1,5 +1,5 @@
 <div id="gitment-comment">
-    <%- partial('_widget/comment/' + theme.comment.use + '/main') %>
+    <div id="gitment-container"></div>
 </div>
 <style>
     #gitment-comment{
@@ -19,5 +19,5 @@
             client_secret: '<%= theme.comment.gitment.client_secret %>',
         },
     })
-    gitment.render('container')
+    gitment.render('gitment-container')
 </script>
